@@ -1,0 +1,114 @@
+.intro {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.ambient-dots--intro {
+  z-index: 101;
+}
+
+.intro__curtain {
+  position: fixed;
+  inset: 0;
+  background: var(--black);
+  transform: scaleY(0);
+  transform-origin: bottom center;
+  z-index: 5;
+}
+
+.intro__content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 22px;
+  padding: 0 24px;
+}
+
+.intro__logo-mask {
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid var(--gold-dim);
+}
+
+.intro__logo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.intro__title {
+  font-family: var(--font-display);
+  font-size: clamp(28px, 6vw, 58px);
+  letter-spacing: 0.08em;
+  line-height: 1.05;
+  color: var(--white);
+}
+
+.intro__title-sub {
+  display: block;
+  font-size: 0.42em;
+  letter-spacing: 0.5em;
+  color: var(--gold);
+  margin-top: 6px;
+}
+
+.intro__tagline {
+  font-size: 12px;
+  letter-spacing: 0.22em;
+  color: var(--gray);
+  max-width: 420px;
+}
+
+.intro__line {
+  width: 120px;
+  margin: 4px auto;
+}
+
+.intro__cta {
+  margin-top: 8px;
+  font-size: 12px;
+  letter-spacing: 0.28em;
+  color: var(--gold-bright);
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.4s var(--ease-cinematic), letter-spacing 0.4s var(--ease-cinematic);
+}
+
+.intro__cta:hover {
+  border-color: var(--gold);
+  letter-spacing: 0.34em;
+}
+
+.intro__cta-arrow {
+  transition: transform 0.4s var(--ease-cinematic);
+}
+
+.intro__cta:hover .intro__cta-arrow {
+  transform: translateX(4px);
+}
+
+@media (max-width: 600px) {
+  .intro__logo-mask {
+    width: 72px;
+    height: 72px;
+  }
+}
+
+.ambient-dots--intro .ambient-dots__dot {
+  animation-duration: calc(var(--duration) * 0.4);
+}

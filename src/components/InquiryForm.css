@@ -1,0 +1,273 @@
+.inquiry {
+    position: relative;
+    padding: 140px 0;
+    background:
+      radial-gradient(
+        50% 40% at 20% 20%,
+        rgba(201, 160, 77, 0.06),
+        transparent 70%
+      ),
+      var(--black);
+  }
+  
+  .inquiry__container {
+    display: grid;
+    grid-template-columns: 0.85fr 1.4fr;
+    gap: 90px;
+    align-items: start;
+  }
+  
+  .inquiry__intro {
+    position: sticky;
+    top: 140px;
+  }
+  
+  .inquiry__heading {
+    margin-top: 26px;
+  
+    font-family: var(--font-display);
+    font-size: clamp(52px, 6vw, 90px);
+  
+    line-height: 0.95;
+  
+    color: #f5f1e9;
+  }
+  
+  .inquiry__sub {
+    margin-top: 28px;
+  
+    max-width: 400px;
+  
+    color: var(--gray);
+  
+    line-height: 1.75;
+  
+    font-size: 15px;
+  }
+  
+  .inquiry__form {
+    padding: 38px;
+  
+    border:
+      1px solid
+      rgba(201, 160, 77, 0.16);
+  
+    border-radius: 8px;
+  
+    background:
+      rgba(255, 255, 255, 0.015);
+  
+    backdrop-filter: blur(8px);
+  }
+  
+  .inquiry__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  
+    gap: 28px 22px;
+  }
+  
+  .inquiry__field {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .inquiry__field--full {
+    grid-column: 1 / -1;
+  }
+  
+  .inquiry__field label {
+    font-size: 9px;
+  
+    letter-spacing: 0.2em;
+  
+    color: var(--gold-bright);
+  }
+  
+  .inquiry__field input,
+  .inquiry__field select,
+  .inquiry__field textarea {
+    width: 100%;
+  
+    border: none;
+    border-bottom:
+      1px solid
+      rgba(201, 160, 77, 0.22);
+  
+    background: transparent;
+  
+    color: #f1ede5;
+  
+    padding: 14px 2px;
+  
+    font-family: inherit;
+    font-size: 14px;
+  
+    outline: none;
+  
+    transition:
+      border-color 0.3s ease;
+  }
+  
+  .inquiry__field input:focus,
+  .inquiry__field select:focus,
+  .inquiry__field textarea:focus {
+    border-color: var(--gold);
+  }
+  
+  .inquiry__field textarea {
+    resize: vertical;
+  
+    min-height: 130px;
+  }
+  
+  .inquiry__field select {
+    color-scheme: dark;
+  }
+  
+  .inquiry__radio-group {
+    display: flex;
+    flex-wrap: wrap;
+  
+    gap: 14px;
+  }
+  
+  .inquiry__radio-group label {
+    display: flex;
+  
+    align-items: center;
+  
+    gap: 8px;
+  
+    padding: 10px 16px;
+  
+    border:
+      1px solid
+      rgba(201, 160, 77, 0.2);
+  
+    border-radius: 50px;
+  
+    color: var(--gray);
+  
+    cursor: pointer;
+  
+    letter-spacing: 0.08em;
+  
+    transition:
+      color 0.3s ease,
+      border-color 0.3s ease,
+      background 0.3s ease;
+  }
+  
+  .inquiry__radio-group label:hover {
+    color: var(--gold-bright);
+  
+    border-color: var(--gold);
+  }
+  
+  .inquiry__radio-group input {
+    width: auto;
+  
+    accent-color: var(--gold);
+  }
+  
+  .inquiry__submit {
+    margin-top: 34px;
+  
+    padding: 16px 26px;
+  
+    border:
+      1px solid
+      var(--gold-dim);
+  
+    border-radius: 50px;
+  
+    background: transparent;
+  
+    color: var(--gold-bright);
+  
+    font-size: 10px;
+  
+    letter-spacing: 0.22em;
+  
+    cursor: pointer;
+  
+    transition:
+      background 0.35s ease,
+      color 0.35s ease,
+      transform 0.35s ease;
+  }
+  
+  .inquiry__submit:hover {
+    background: var(--gold);
+  
+    color: #050505;
+  
+    transform: translateY(-2px);
+  }
+  
+  @media (max-width: 900px) {
+    .inquiry {
+      padding: 90px 0;
+    }
+  
+    .inquiry__container {
+      grid-template-columns: 1fr;
+  
+      gap: 50px;
+    }
+  
+    .inquiry__intro {
+      position: static;
+    }
+  }
+  
+  @media (max-width: 650px) {
+    .inquiry__form {
+      padding: 24px 18px;
+    }
+  
+    .inquiry__grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .inquiry__field--full {
+      grid-column: auto;
+    }
+  
+    .inquiry__radio-group {
+      flex-direction: column;
+    }
+  }
+
+  /* =====================================
+   DARK THEME SELECT DROPDOWN
+===================================== */
+
+.inquiry__field select {
+  background-color: #0b0b0b;
+  color: #f2eee6;
+
+  border-bottom: 1px solid rgba(201, 160, 77, 0.28);
+
+  appearance: auto;
+}
+
+/* Dropdown options */
+.inquiry__field select option {
+  background-color: #111111;
+  color: #f2eee6;
+}
+
+/* First placeholder option */
+.inquiry__field select option[value=""] {
+  color: #8f887d;
+}
+
+/* Selected / hover feel */
+.inquiry__field select:focus {
+  background-color: #0b0b0b;
+  color: #ffffff;
+  border-color: var(--gold);
+}

@@ -1,0 +1,101 @@
+.portfolio-item {
+  cursor: none;
+  position: relative;
+}
+
+.portfolio-item__frame {
+  position: relative;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  border-radius: 2px;
+  border: 1px solid rgba(201, 160, 77, 0.14);
+}
+
+.portfolio-item__media {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.6s var(--ease-cinematic), transform 0.9s var(--ease-cinematic);
+}
+
+.portfolio-item__placeholder {
+  display: flex;
+  align-items: flex-end;
+  padding: 20px;
+  transition: opacity 0.5s var(--ease-cinematic), transform 0.9s var(--ease-cinematic);
+}
+
+.portfolio-item__placeholder-label {
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  color: rgba(244, 241, 234, 0.35);
+}
+
+.portfolio-item:hover .portfolio-item__media,
+.portfolio-item:hover .portfolio-item__placeholder {
+  transform: scale(1.06);
+}
+
+.portfolio-item__scrim {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 40%, rgba(6, 6, 5, 0.85) 100%);
+  pointer-events: none;
+}
+
+.portfolio-item__meta {
+  padding-top: 18px;
+}
+
+.portfolio-item__top-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  color: var(--gray);
+  margin-bottom: 10px;
+}
+
+.portfolio-item__category {
+  color: var(--gold);
+}
+
+.portfolio-item__title {
+  font-family: var(--font-display);
+  font-size: clamp(20px, 2.6vw, 30px);
+  letter-spacing: 0.01em;
+  transition: transform 0.5s var(--ease-cinematic), color 0.5s var(--ease-cinematic);
+}
+
+.portfolio-item:hover .portfolio-item__title {
+  transform: translateX(6px);
+  color: var(--gold-bright);
+}
+
+.portfolio-item__line {
+  margin: 14px 0 10px;
+  transform: scaleX(0.2);
+  transition: transform 0.6s var(--ease-cinematic);
+}
+
+.portfolio-item:hover .portfolio-item__line {
+  transform: scaleX(1);
+}
+
+.portfolio-item__view {
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  color: var(--gray-dim);
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 0.4s var(--ease-cinematic), transform 0.4s var(--ease-cinematic);
+  display: block;
+}
+
+.portfolio-item:hover .portfolio-item__view {
+  opacity: 1;
+  transform: translateY(0);
+  color: var(--gold);
+}

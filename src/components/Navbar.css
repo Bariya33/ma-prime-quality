@@ -1,0 +1,122 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 400;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px 6vw;
+  mix-blend-mode: normal;
+}
+
+.navbar__brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.navbar__logo {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--gold-dim);
+}
+
+.navbar__brand-text {
+  font-size: 12px;
+  letter-spacing: 0.22em;
+  display: none;
+}
+
+@media (min-width: 700px) {
+  .navbar__brand-text {
+    display: inline;
+  }
+}
+
+.navbar__menu-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--white);
+}
+
+.navbar__menu-label {
+  font-size: 11px;
+  letter-spacing: 0.28em;
+}
+
+.navbar__menu-icon {
+  width: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.navbar__menu-icon span {
+  height: 1px;
+  background: var(--gold);
+  transition: transform 0.4s var(--ease-cinematic), opacity 0.4s var(--ease-cinematic);
+}
+
+.navbar__menu-btn--open .navbar__menu-icon span:first-child {
+  transform: translateY(3px) rotate(45deg);
+}
+
+.navbar__menu-btn--open .navbar__menu-icon span:last-child {
+  transform: translateY(-3px) rotate(-45deg);
+}
+
+.menu-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 450;
+  background: var(--charcoal);
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 12vh 6vw;
+}
+
+.menu-overlay__list {
+  list-style: none;
+}
+
+.menu-overlay__item {
+  border-bottom: 1px solid rgba(201, 160, 77, 0.14);
+}
+
+.menu-overlay__item a {
+  display: flex;
+  align-items: baseline;
+  gap: 24px;
+  padding: 20px 0;
+  font-family: var(--font-display);
+  font-size: clamp(30px, 8vw, 84px);
+  letter-spacing: 0.02em;
+  color: var(--white);
+  transition: color 0.4s var(--ease-cinematic), padding-left 0.5s var(--ease-cinematic);
+}
+
+.menu-overlay__index {
+  font-family: var(--font-body);
+  font-size: 13px;
+  letter-spacing: 0.2em;
+  color: var(--gold);
+}
+
+.menu-overlay__item a:hover {
+  color: var(--gold-bright);
+  padding-left: 20px;
+}
+
+.menu-overlay__footer {
+  display: flex;
+  gap: 32px;
+  margin-top: 48px;
+  flex-wrap: wrap;
+}
