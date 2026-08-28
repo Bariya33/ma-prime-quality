@@ -9,7 +9,7 @@ export default function Founders() {
 
         <div className="founders__top">
           <span className="section-label__index">
-            07 / LEADERSHIP
+            LEADERSHIP
           </span>
 
           <h2 className="founders__heading">
@@ -30,7 +30,7 @@ export default function Founders() {
           <article className="founder-card founder-card--main">
             <div className="founder-card__image-wrap">
               <img
-                src={`${BASE_URL}media/images/team/manthan.jpg`}
+                src={`${BASE_URL}media/images/team/manthanbariya.jpeg`}
                 alt="Manthan Bariya"
                 className="founder-card__image"
               />
@@ -64,7 +64,7 @@ export default function Founders() {
           <article className="founder-card">
             <div className="founder-card__image-wrap">
               <img
-                src={`${BASE_URL}media/images/team/ajay.jpg`}
+                src={`${BASE_URL}media/images/team/ajaymarwadi.jpeg`}
                 alt="Ajay Marwadi"
                 className="founder-card__image"
               />
