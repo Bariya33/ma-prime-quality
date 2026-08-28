@@ -1,19 +1,18 @@
+const BASE_URL = import.meta.env.BASE_URL;
+
 export const SITE = {
   name: 'MA Prime Quality',
   tagline: 'EDITORS',
   quote: "WE DON'T JUST EDIT. WE CREATE THE MOMENT.",
 
-  // IMPORTANT:
-  // File actual location:
-  // public/media/images/logo.jpeg
-  // Browser path:
-  logo: '/media/images/logo.jpeg',
+  logo: `${BASE_URL}media/images/logo.jpeg`,
 
   instagramHandle: '@ma_primequality',
   instagramUrl: 'https://instagram.com/ma_primequality',
 
   youtubeHandle: '@maprimequality',
-  youtubeUrl: 'https://youtube.com/@maprimequality?si=z_DTu02QagZcPTPS',
+  youtubeUrl:
+    'https://youtube.com/@maprimequality?si=z_DTu02QagZcPTPS',
 
   facebookHandle: 'MA Prime quality',
   facebookUrl: 'https://www.facebook.com/share/1HkHrXGcWn/',
@@ -59,10 +58,6 @@ export const NAV_LINKS = [
   },
 ];
 
-/* =========================================================
-   PORTFOLIO CATEGORIES
-========================================================= */
-
 export const CATEGORIES = [
   {
     key: 'all',
@@ -94,24 +89,16 @@ export const CATEGORIES = [
   },
 ];
 
-/* =========================================================
-   SELECTED WORK / PROJECTS
-========================================================= */
-
 export const PROJECTS = [
   {
     id: 'cars-bikes-01',
-
     title: 'Cars & Bikes 01',
-
     category: 'cars-bikes',
-
     categoryLabel: 'AUTOMOTIVE',
-
     year: 2026,
 
     thumbnail:
-      '/media/images/thumbnails/Cars&Bikes-01.jpg',
+      `${BASE_URL}media/images/thumbnails/Cars&Bikes-01.jpg`,
 
     video:
       '/media/videos/Cars&Bikes-01.mp4',
@@ -122,17 +109,13 @@ export const PROJECTS = [
 
   {
     id: 'cars-bikes-02',
-
     title: 'Cars & Bikes 02',
-
     category: 'cars-bikes',
-
     categoryLabel: 'AUTOMOTIVE',
-
     year: 2026,
 
     thumbnail:
-      '/media/images/thumbnails/Cars&Bikes-02.jpg',
+      `${BASE_URL}media/images/thumbnails/Cars&Bikes-02.jpg`,
 
     video:
       '/media/videos/Cars&Bikes-02.mp4',
@@ -143,17 +126,13 @@ export const PROJECTS = [
 
   {
     id: 'event-01',
-
     title: 'Event 01',
-
     category: 'events',
-
     categoryLabel: 'EVENTS',
-
     year: 2026,
 
     thumbnail:
-      '/media/images/thumbnails/Event-01.jpg',
+      `${BASE_URL}media/images/thumbnails/Event-01.jpg`,
 
     video:
       '/media/videos/Event-01.mp4',
@@ -164,17 +143,13 @@ export const PROJECTS = [
 
   {
     id: 'event-02',
-
     title: 'Event 02',
-
     category: 'events',
-
     categoryLabel: 'EVENTS',
-
     year: 2025,
 
     thumbnail:
-      '/media/images/thumbnails/Event-02.jpg',
+      `${BASE_URL}media/images/thumbnails/Event-02.jpg`,
 
     video:
       '/media/videos/Event-02.mp4',
@@ -185,17 +160,13 @@ export const PROJECTS = [
 
   {
     id: 'event-03',
-
     title: 'Event 03',
-
     category: 'events',
-
     categoryLabel: 'EVENTS',
-
     year: 2025,
 
     thumbnail:
-      '/media/images/thumbnails/Event-03.jpg',
+      `${BASE_URL}media/images/thumbnails/Event-03.jpg`,
 
     video:
       '/media/videos/Event-03.mp4',
@@ -206,17 +177,13 @@ export const PROJECTS = [
 
   {
     id: 'festival-01',
-
     title: 'Festival 01',
-
     category: 'festivals',
-
     categoryLabel: 'FESTIVALS',
-
     year: 2026,
 
     thumbnail:
-      '/media/images/thumbnails/Festival-01.jpg',
+      `${BASE_URL}media/images/thumbnails/Festival-01.jpg`,
 
     video:
       '/media/videos/Festival-01.mp4',
@@ -227,17 +194,13 @@ export const PROJECTS = [
 
   {
     id: 'festival-02',
-
     title: 'Festival 02',
-
     category: 'festivals',
-
     categoryLabel: 'FESTIVALS',
-
     year: 2025,
 
     thumbnail:
-      '/media/images/thumbnails/Festival-02.jpg',
+      `${BASE_URL}media/images/thumbnails/Festival-02.jpg`,
 
     video:
       '/media/videos/Festival-02.mp4',
@@ -248,17 +211,13 @@ export const PROJECTS = [
 
   {
     id: 'festival-03',
-
     title: 'Festival 03',
-
     category: 'festivals',
-
     categoryLabel: 'FESTIVALS',
-
     year: 2025,
 
     thumbnail:
-      '/media/images/thumbnails/Festival-03.jpg',
+      `${BASE_URL}media/images/thumbnails/Festival-03.jpg`,
 
     video:
       '/media/videos/Festival-03.mp4',
@@ -269,17 +228,13 @@ export const PROJECTS = [
 
   {
     id: 'festival-04',
-
     title: 'Festival 04',
-
     category: 'festivals',
-
     categoryLabel: 'FESTIVALS',
-
     year: 2024,
 
     thumbnail:
-      '/media/images/thumbnails/Festival-04.jpg',
+      `${BASE_URL}media/images/thumbnails/Festival-04.jpg`,
 
     video:
       '/media/videos/Festival-04.mp4',
@@ -290,17 +245,13 @@ export const PROJECTS = [
 
   {
     id: 'gym-01',
-
     title: 'Gym 01',
-
     category: 'gym',
-
     categoryLabel: 'FITNESS',
-
     year: 2026,
 
     thumbnail:
-      '/media/images/thumbnails/GYM-01.jpg',
+      `${BASE_URL}media/images/thumbnails/GYM-01.jpg`,
 
     video:
       '/media/videos/GYM-01.mp4',
@@ -311,17 +262,13 @@ export const PROJECTS = [
 
   {
     id: 'gym-02',
-
     title: 'Gym 02',
-
     category: 'gym',
-
     categoryLabel: 'FITNESS',
-
     year: 2025,
 
     thumbnail:
-      '/media/images/thumbnails/GYM-02.jpg',
+      `${BASE_URL}media/images/thumbnails/GYM-02.jpg`,
 
     video:
       '/media/videos/GYM-02.mp4',
@@ -332,17 +279,13 @@ export const PROJECTS = [
 
   {
     id: 'gym-03',
-
     title: 'Gym 03',
-
     category: 'gym',
-
     categoryLabel: 'FITNESS',
-
     year: 2025,
 
     thumbnail:
-      '/media/images/thumbnails/GYM-03.jpg',
+      `${BASE_URL}media/images/thumbnails/GYM-03.jpg`,
 
     video:
       '/media/videos/GYM-03.mp4',
@@ -353,17 +296,13 @@ export const PROJECTS = [
 
   {
     id: 'promotional-01',
-
     title: 'Promotional Reel 01',
-
     category: 'promotional',
-
     categoryLabel: 'PROMOTIONAL',
-
     year: 2026,
 
     thumbnail:
-      '/media/images/thumbnails/Prmotional Reel-01.jpg',
+      `${BASE_URL}media/images/thumbnails/Prmotional Reel-01.jpg`,
 
     video:
       '/media/videos/Prmotional Reel-01.mp4',
@@ -374,17 +313,13 @@ export const PROJECTS = [
 
   {
     id: 'promotional-02',
-
     title: 'Promotional Reel 02',
-
     category: 'promotional',
-
     categoryLabel: 'PROMOTIONAL',
-
     year: 2026,
 
     thumbnail:
-      '/media/images/thumbnails/Prmotional Reel-02.jpg',
+      `${BASE_URL}media/images/thumbnails/Prmotional Reel-02.jpg`,
 
     video:
       '/media/videos/Prmotional Reel-02.mp4',
@@ -395,17 +330,13 @@ export const PROJECTS = [
 
   {
     id: 'promotional-03',
-
     title: 'Promotional Reel 03',
-
     category: 'promotional',
-
     categoryLabel: 'PROMOTIONAL',
-
     year: 2025,
 
     thumbnail:
-      '/media/images/thumbnails/Prmotional Reel-03.jpg',
+      `${BASE_URL}media/images/thumbnails/Prmotional Reel-03.jpg`,
 
     video:
       '/media/videos/Prmotional Reel-03.mp4',
@@ -416,17 +347,13 @@ export const PROJECTS = [
 
   {
     id: 'promotional-04',
-
     title: 'Promotional Reel 04',
-
     category: 'promotional',
-
     categoryLabel: 'PROMOTIONAL',
-
     year: 2025,
 
     thumbnail:
-      '/media/images/thumbnails/Prmotional Reel-04.jpg',
+      `${BASE_URL}media/images/thumbnails/Prmotional Reel-04.jpg`,
 
     video:
       '/media/videos/Prmotional Reel-04.mp4',
@@ -437,17 +364,13 @@ export const PROJECTS = [
 
   {
     id: 'promotional-05',
-
     title: 'Promotional Reel 05',
-
     category: 'promotional',
-
     categoryLabel: 'PROMOTIONAL',
-
     year: 2024,
 
     thumbnail:
-      '/media/images/thumbnails/Prmotional Reel-05.jpg',
+      `${BASE_URL}media/images/thumbnails/Prmotional Reel-05.jpg`,
 
     video:
       '/media/videos/Prmotional Reel-05.mp4',
@@ -458,17 +381,13 @@ export const PROJECTS = [
 
   {
     id: 'random-01',
-
     title: 'Random',
-
     category: 'social',
-
     categoryLabel: 'SOCIAL',
-
     year: 2026,
 
     thumbnail:
-      '/media/images/thumbnails/Random.jpg',
+      `${BASE_URL}media/images/thumbnails/Random.jpg`,
 
     video:
       '/media/videos/Random.mp4',
@@ -478,69 +397,49 @@ export const PROJECTS = [
   },
 ];
 
-/* =========================================================
-   SERVICES
-========================================================= */
-
 export const SERVICES = [
   {
     index: '01',
-
     title: 'VIDEO EDITING',
-
     description:
       'From raw footage to polished final cuts, we shape every frame with intention.',
   },
 
   {
     index: '02',
-
     title: 'WEDDING FILMS',
-
     description:
       'Emotional, cinematic wedding stories cut to preserve every unrepeatable moment.',
   },
 
   {
     index: '03',
-
     title: 'AUTOMOTIVE EDITS',
-
     description:
       'High-energy automotive content built on rhythm, sound design and motion.',
   },
 
   {
     index: '04',
-
     title: 'EVENT AFTERMOVIES',
-
     description:
       'Multi-day, multi-camera events distilled into a single unforgettable recap.',
   },
 
   {
     index: '05',
-
     title: 'BRAND PROMOTIONS',
-
     description:
       'Promotional films that hold attention and carry your brand voice with clarity.',
   },
 
   {
     index: '06',
-
     title: 'SOCIAL MEDIA CONTENT',
-
     description:
       'Fast, sharp, platform-native edits built for the scroll.',
   },
 ];
-
-/* =========================================================
-   PROCESS
-========================================================= */
 
 export const PROCESS_STEPS = [
   {
@@ -574,43 +473,31 @@ export const PROCESS_STEPS = [
   },
 ];
 
-/* =========================================================
-   PRINCIPLES
-========================================================= */
-
 export const PRINCIPLES = [
   {
     index: '01',
-
     title: 'PRECISION',
-
     description:
       'Every cut, transition and beat is placed with deliberate intent — nothing is arbitrary.',
   },
 
   {
     index: '02',
-
     title: 'STORYTELLING',
-
     description:
       'We build structure and pacing so footage becomes a story with a beginning, middle and end.',
   },
 
   {
     index: '03',
-
     title: 'CINEMATIC VISUALS',
-
     description:
       'Color, composition and motion are treated with the same care as a feature film.',
   },
 
   {
     index: '04',
-
     title: 'QUALITY',
-
     description:
       'Every delivery is checked frame by frame before it carries the Prime Quality name.',
   },
