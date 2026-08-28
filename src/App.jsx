@@ -5,6 +5,7 @@ import AmbientDots from './components/AmbientDots.jsx';
 
 import Intro from './components/Intro.jsx';
 import Navbar from './components/Navbar.jsx';
+import Founders from './components/Founders.jsx';
 import Hero from './components/Hero.jsx';
 import SelectedWork from './components/SelectedWork.jsx';
 import Services from './components/Services.jsx';
@@ -56,6 +57,8 @@ export default function App() {
 
           <main>
             <Hero />
+
+            <Founders />
 
             <SelectedWork />
 
