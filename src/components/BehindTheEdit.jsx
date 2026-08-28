@@ -43,7 +43,7 @@ export default function BehindTheEdit() {
       <div className="behind-edit__scrim" />
       <div className="container behind-edit__content">
         <div className="section-label">
-          <span className="section-label__index">05 / BEHIND THE EDIT</span>
+          <span className="section-label__index">BEHIND THE EDIT</span>
         </div>
         <h2 className="behind-edit__statement">
           <span className="reveal-mask"><span>THE EDIT IS WHERE</span></span>

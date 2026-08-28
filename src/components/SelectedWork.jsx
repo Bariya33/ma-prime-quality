@@ -20,7 +20,7 @@ export default function SelectedWork() {
         <div className="selected-work__header">
           <div>
             <div className="section-label">
-              <span className="section-label__index">02 / SELECTED WORK</span>
+              <span className="section-label__index"><li>SELECTED WORK</li></span>
             </div>
             <h2 className="selected-work__heading">SELECTED WORK</h2>
             <p className="selected-work__sub">Stories shaped frame by frame.</p>

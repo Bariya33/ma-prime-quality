@@ -9,7 +9,7 @@ export default function WhyPrimeQuality() {
     <section className="why">
       <div className="container">
         <div className="section-label">
-          <span className="section-label__index">06 / WHY PRIME QUALITY</span>
+          <span className="section-label__index"><li>WHY PRIME QUALITY</li></span>
         </div>
         <div className="why__grid">
           {PRINCIPLES.map((p, i) => (

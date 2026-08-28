@@ -92,7 +92,7 @@ export const CATEGORIES = [
 export const PROJECTS = [
   {
     id: 'cars-bikes-01',
-    title: 'Cars & Bikes 01',
+    title: 'Car Video',
     category: 'cars-bikes',
     categoryLabel: 'AUTOMOTIVE',
     year: 2026,
@@ -109,7 +109,7 @@ export const PROJECTS = [
 
   {
     id: 'cars-bikes-02',
-    title: 'Cars & Bikes 02',
+    title: 'Bikes video',
     category: 'cars-bikes',
     categoryLabel: 'AUTOMOTIVE',
     year: 2026,
@@ -126,7 +126,7 @@ export const PROJECTS = [
 
   {
     id: 'event-01',
-    title: 'Event 01',
+    title: 'Baby Welcome',
     category: 'events',
     categoryLabel: 'EVENTS',
     year: 2026,
@@ -143,7 +143,7 @@ export const PROJECTS = [
 
   {
     id: 'event-02',
-    title: 'Event 02',
+    title: 'Baby Shower Event',
     category: 'events',
     categoryLabel: 'EVENTS',
     year: 2025,
@@ -160,7 +160,7 @@ export const PROJECTS = [
 
   {
     id: 'event-03',
-    title: 'Event 03',
+    title: 'Baby Shower Function',
     category: 'events',
     categoryLabel: 'EVENTS',
     year: 2025,
@@ -177,7 +177,7 @@ export const PROJECTS = [
 
   {
     id: 'festival-01',
-    title: 'Festival 01',
+    title: 'Ganpati Bappa Edits',
     category: 'festivals',
     categoryLabel: 'FESTIVALS',
     year: 2026,
@@ -194,7 +194,7 @@ export const PROJECTS = [
 
   {
     id: 'festival-02',
-    title: 'Festival 02',
+    title: 'Ganpati Bappa Edits',
     category: 'festivals',
     categoryLabel: 'FESTIVALS',
     year: 2025,
@@ -211,7 +211,7 @@ export const PROJECTS = [
 
   {
     id: 'festival-03',
-    title: 'Festival 03',
+    title: 'Cooming Soon',
     category: 'festivals',
     categoryLabel: 'FESTIVALS',
     year: 2025,
@@ -228,7 +228,7 @@ export const PROJECTS = [
 
   {
     id: 'festival-04',
-    title: 'Festival 04',
+    title: 'Personal Edit',
     category: 'festivals',
     categoryLabel: 'FESTIVALS',
     year: 2024,
@@ -245,7 +245,7 @@ export const PROJECTS = [
 
   {
     id: 'gym-01',
-    title: 'Gym 01',
+    title: 'Gym Prmotion',
     category: 'gym',
     categoryLabel: 'FITNESS',
     year: 2026,
@@ -262,7 +262,7 @@ export const PROJECTS = [
 
   {
     id: 'gym-02',
-    title: 'Gym 02',
+    title: 'Gym Personal',
     category: 'gym',
     categoryLabel: 'FITNESS',
     year: 2025,
@@ -279,7 +279,7 @@ export const PROJECTS = [
 
   {
     id: 'gym-03',
-    title: 'Gym 03',
+    title: 'Gym',
     category: 'gym',
     categoryLabel: 'FITNESS',
     year: 2025,
@@ -296,7 +296,7 @@ export const PROJECTS = [
 
   {
     id: 'promotional-01',
-    title: 'Promotional Reel 01',
+    title: 'GYM Brand Promotional',
     category: 'promotional',
     categoryLabel: 'PROMOTIONAL',
     year: 2026,
@@ -313,7 +313,7 @@ export const PROJECTS = [
 
   {
     id: 'promotional-02',
-    title: 'Promotional Reel 02',
+    title: 'Mobile Shop Promotional',
     category: 'promotional',
     categoryLabel: 'PROMOTIONAL',
     year: 2026,
@@ -330,7 +330,7 @@ export const PROJECTS = [
 
   {
     id: 'promotional-03',
-    title: 'Promotional Reel 03',
+    title: 'School Promotional',
     category: 'promotional',
     categoryLabel: 'PROMOTIONAL',
     year: 2025,
@@ -347,7 +347,7 @@ export const PROJECTS = [
 
   {
     id: 'promotional-04',
-    title: 'Promotional Reel 04',
+    title: 'Shop Promotional',
     category: 'promotional',
     categoryLabel: 'PROMOTIONAL',
     year: 2025,
@@ -364,7 +364,7 @@ export const PROJECTS = [
 
   {
     id: 'promotional-05',
-    title: 'Promotional Reel 05',
+    title: 'Hair Shop Promotional',
     category: 'promotional',
     categoryLabel: 'PROMOTIONAL',
     year: 2024,
@@ -381,7 +381,7 @@ export const PROJECTS = [
 
   {
     id: 'random-01',
-    title: 'Random',
+    title: 'Personal',
     category: 'social',
     categoryLabel: 'SOCIAL',
     year: 2026,

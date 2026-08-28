@@ -65,7 +65,7 @@ export default function Social() {
         <div className="social__header">
           <div>
             <div className="section-label">
-              <span className="section-label__index">07 / FOLLOW THE EDIT</span>
+              <span className="section-label__index"><li>FOLLOW THE EDIT</li></span>
             </div>
             <h2 className="social__heading">FOLLOW THE EDIT</h2>
             <span className="eyebrow social__handle">{SITE.instagramHandle}</span>

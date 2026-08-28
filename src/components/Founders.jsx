@@ -9,7 +9,7 @@ export default function Founders() {
 
         <div className="founders__top">
           <span className="section-label__index">
-            LEADERSHIP
+          <li> LEADERSHIP</li>
           </span>
 
           <h2 className="founders__heading">

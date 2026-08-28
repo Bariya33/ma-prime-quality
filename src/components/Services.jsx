@@ -56,7 +56,7 @@ export default function Services() {
       <div className="container">
         <div className="section-label">
           <span className="section-label__index">
-            03 / WHAT WE CREATE
+          <li>WHAT WE CREATE</li>
           </span>
         </div>
 

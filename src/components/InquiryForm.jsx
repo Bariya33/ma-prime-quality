@@ -96,7 +96,7 @@ export default function InquiryForm() {
 
         <div className="inquiry__intro">
           <span className="section-label__index">
-            08 / PROJECT INQUIRY
+          <li> PROJECT INQUIRY</li>
           </span>
 
           <h2 className="inquiry__heading">

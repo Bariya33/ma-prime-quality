@@ -53,7 +53,7 @@ export default function Process() {
     <section id="process" ref={sectionRef} className="process">
       <div className="container">
         <div className="section-label">
-          <span className="section-label__index">04 / EXPERIENCE</span>
+          <span className="section-label__index"><li>EXPERIENCE</li></span>
         </div>
         <h2 className="process__heading">
           FROM RAW<br />TO REMARKABLE.

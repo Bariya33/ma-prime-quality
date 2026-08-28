@@ -194,7 +194,7 @@ export default function Hero() {
       {/* Main Content */}
       <div className="container hero__content">
         <p className="eyebrow hero__label">
-          MA PRIME QUALITY / 01
+        <li>MA PRIME QUALITY </li>
         </p>
 
         <h1
