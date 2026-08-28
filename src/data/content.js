@@ -101,7 +101,7 @@ export const PROJECTS = [
       `${BASE_URL}media/images/thumbnails/Cars&Bikes-01.jpg`,
 
     video:
-      '/media/videos/Cars&Bikes-01.mp4',
+      'https://res.cloudinary.com/nbjquwcy/video/upload/v1787933389/Cars_Bikes-01.mp4',
 
     description:
       'High-octane color grading and rhythm-cut edit built around engine notes and road texture.',
@@ -118,7 +118,7 @@ export const PROJECTS = [
       `${BASE_URL}media/images/thumbnails/Cars&Bikes-02.jpg`,
 
     video:
-      '/media/videos/Cars&Bikes-02.mp4',
+      'https://res.cloudinary.com/nbjquwcy/video/upload/v1787933391/Cars_Bikes-02.mp4',
 
     description:
       'A rider-first cut pairing kinetic camera work with a driving sound design pass.',
@@ -134,8 +134,8 @@ export const PROJECTS = [
     thumbnail:
       `${BASE_URL}media/images/thumbnails/Event-01.jpg`,
 
-    video:
-      '/media/videos/Event-01.mp4',
+      video:
+      'https://res.cloudinary.com/nbjquwcy/video/upload/v1787934460/Event-01.mp4',
 
     description:
       'Multi-camera event coverage distilled into a single emotional highlight reel.',
@@ -152,7 +152,7 @@ export const PROJECTS = [
       `${BASE_URL}media/images/thumbnails/Event-02.jpg`,
 
     video:
-      '/media/videos/Event-02.mp4',
+      'https://res.cloudinary.com/nbjquwcy/video/upload/v1787933557/Event-02.mp4',
 
     description:
       'A wedding-day aftermovie built around candid moments and natural sound.',
@@ -169,7 +169,7 @@ export const PROJECTS = [
       `${BASE_URL}media/images/thumbnails/Event-03.jpg`,
 
     video:
-      '/media/videos/Event-03.mp4',
+      'https://res.cloudinary.com/nbjquwcy/video/upload/v1787933525/Event-03.mp4',
 
     description:
       'Ceremony-to-reception storytelling with slow, deliberate pacing.',
@@ -186,7 +186,7 @@ export const PROJECTS = [
       `${BASE_URL}media/images/thumbnails/Festival-01.jpg`,
 
     video:
-      '/media/videos/Festival-01.mp4',
+      'https://res.cloudinary.com/nbjquwcy/video/upload/v1787933442/Festival-01.mp4',
 
     description:
       'Crowd energy and stage lighting cut to the drop of the headline set.',
@@ -203,7 +203,7 @@ export const PROJECTS = [
       `${BASE_URL}media/images/thumbnails/Festival-02.jpg`,
 
     video:
-      '/media/videos/Festival-02.mp4',
+      'https://res.cloudinary.com/nbjquwcy/video/upload/v1787933421/Festival-02.mp4',
 
     description:
       'A festival recap built from hundreds of clips into one cohesive arc.',
@@ -220,7 +220,7 @@ export const PROJECTS = [
       `${BASE_URL}media/images/thumbnails/Festival-03.jpg`,
 
     video:
-      '/media/videos/Festival-03.mp4',
+      'https://res.cloudinary.com/nbjquwcy/video/upload/v1787933394/Festival-03.mp4',
 
     description:
       'Color and light choreography mirroring the rhythm of a live set.',
@@ -237,7 +237,7 @@ export const PROJECTS = [
       `${BASE_URL}media/images/thumbnails/Festival-04.jpg`,
 
     video:
-      '/media/videos/Festival-04.mp4',
+      'https://res.cloudinary.com/nbjquwcy/video/upload/v1787934457/Festival-04.mp4',
 
     description:
       'Night-shoot footage graded for depth, warmth and scale.',
@@ -254,7 +254,7 @@ export const PROJECTS = [
       `${BASE_URL}media/images/thumbnails/GYM-01.jpg`,
 
     video:
-      '/media/videos/GYM-01.mp4',
+      'https://res.cloudinary.com/nbjquwcy/video/upload/v1787933427/GYM-01.mp4',
 
     description:
       'A punchy transformation edit driven by tight match-cuts and impact sound.',
@@ -271,7 +271,7 @@ export const PROJECTS = [
       `${BASE_URL}media/images/thumbnails/GYM-02.jpg`,
 
     video:
-      '/media/videos/GYM-02.mp4',
+      'https://res.cloudinary.com/nbjquwcy/video/upload/v1787933411/GYM-02.mp4',
 
     description:
       'Training-floor coverage edited for intensity and momentum.',
@@ -288,7 +288,7 @@ export const PROJECTS = [
       `${BASE_URL}media/images/thumbnails/GYM-03.jpg`,
 
     video:
-      '/media/videos/GYM-03.mp4',
+      'https://res.cloudinary.com/nbjquwcy/video/upload/v1787934449/GYM-03.mp4',
 
     description:
       'A brand piece for a fitness studio, cut to a disciplined, confident pace.',
@@ -305,7 +305,7 @@ export const PROJECTS = [
       `${BASE_URL}media/images/thumbnails/Prmotional Reel-01.jpg`,
 
     video:
-      '/media/videos/Prmotional Reel-01.mp4',
+      'https://res.cloudinary.com/nbjquwcy/video/upload/v1787933497/Prmotional_Reel-01.mp4',
 
     description:
       'A brand promo built to hold attention in the first three seconds and beyond.',
@@ -322,7 +322,7 @@ export const PROJECTS = [
       `${BASE_URL}media/images/thumbnails/Prmotional Reel-02.jpg`,
 
     video:
-      '/media/videos/Prmotional Reel-02.mp4',
+      'https://res.cloudinary.com/nbjquwcy/video/upload/v1787933492/Prmotional_Reel-02.mp4',
 
     description:
       'Product-first storytelling with clean, confident pacing.',
@@ -339,7 +339,7 @@ export const PROJECTS = [
       `${BASE_URL}media/images/thumbnails/Prmotional Reel-03.jpg`,
 
     video:
-      '/media/videos/Prmotional Reel-03.mp4',
+      'https://res.cloudinary.com/nbjquwcy/video/upload/v1787933552/Prmotional_Reel-03.mp4',
 
     description:
       'A launch film balancing brand tone with social-first cutting.',
@@ -356,7 +356,7 @@ export const PROJECTS = [
       `${BASE_URL}media/images/thumbnails/Prmotional Reel-04.jpg`,
 
     video:
-      '/media/videos/Prmotional Reel-04.mp4',
+      'https://res.cloudinary.com/nbjquwcy/video/upload/v1787933537/Prmotional_Reel-04.mp4',
 
     description:
       'A short-form promo optimized for vertical, sound-off viewing.',
@@ -373,7 +373,7 @@ export const PROJECTS = [
       `${BASE_URL}media/images/thumbnails/Prmotional Reel-05.jpg`,
 
     video:
-      '/media/videos/Prmotional Reel-05.mp4',
+      'https://res.cloudinary.com/nbjquwcy/video/upload/v1787933542/Prmotional_Reel-05.mp4',
 
     description:
       'A campaign teaser cut for maximum recall in fifteen seconds.',
@@ -390,7 +390,7 @@ export const PROJECTS = [
       `${BASE_URL}media/images/thumbnails/Random.jpg`,
 
     video:
-      '/media/videos/Random.mp4',
+      'https://res.cloudinary.com/nbjquwcy/video/upload/v1787933527/Random.mp4',
 
     description:
       'A social-first edit exploring a looser, more experimental cutting style.',
