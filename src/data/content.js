@@ -89,6 +89,9 @@ export const CATEGORIES = [
   },
 ];
 
+src=`${BASE_URL}media/images/team/manthan.jpeg`
+src=`${BASE_URL}media/images/team/ajay.jpeg`
+
 export const PROJECTS = [
   {
     id: 'cars-bikes-01',
