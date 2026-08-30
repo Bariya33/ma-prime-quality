@@ -64,7 +64,7 @@ export default function Founders() {
           <article className="founder-card">
             <div className="founder-card__image-wrap">
               <img
-                src={`${BASE_URL}media/images/team/ajaymarwadi.jpeg`}
+                src={`${BASE_URL}media/images/team/ajaymarwadi.png`}
                 alt="Ajay Marwadi"
                 className="founder-card__image"
               />
